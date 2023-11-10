@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Tutorial</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="text-white font-serif bg-[url('/build/images/Bgpicture4.jpeg')] backdrop-blur-sm w-full">
+    <div class="grid sm:grid-cols-3 md:grid-cols-3"> <!-- wrapper for nav and main -->
+        <div class=" sm:col-span-1 md:col-span-1 md:flex md:justify-end"> <!--div for nav-->
+            <nav class="md:text-right">
+                <div>
+                    <h1
+                        class="font-bold uppercase p-4 border-b border-gray-100 hover:text-yellow-600 transition duration-500">
+                        <a href="">Food By Tolzz</a>
+                    </h1>
+                </div>
+                <ul class="text-sm mt-6">
+                    <li class="font-bold hover:text-blue-700 transition duration-500">
+                        <a href="index.html">
+                            <span>Home<span>
+                        </a>
+                    </li>
+                    <li class="font-bold hover:text-blue-700 transition duration-500">
+                        <a href="menu.html">
+                            <span>Menu</span>
+                        </a>
+                    </li>
+                    <li class="font-bold hover:text-blue-700 transition duration-500">
+                        <a href="about.html">
+                            <span>About Us</span>
+                        </a>
+                    </li>
+                    <li class="font-bold hover:text-blue-700 transition duration-500">
+                        <a href="contact.html">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div><!-- end of nav -->
+
+        <main class="p-10 sm:col-span-2 md:col-span-2">
+
+
+            <header>
+                <h2 class="text-white text-6xl font-semibold">Recipes</h2>
+                <h3 class="text-2xl font-semibold">For Tolzz</h3>
+            </header>
+
+            <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recipes</h4>
+
+            <div class="mt-8 grid lg:grid-cols-3 gap-10"><!-- cards go here -->
+                <div class="card">
+                    <img src="/build/images/stew.jpeg" alt="stew" class="w-full h-32 sm:h-48 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold text-black">5 Bean Chilli Stew</span>
+                        <span class="block text-gray-500 text-sm">Recipe by Tolani</span>
+                    </div>
+                    <div class="badge">
+                        <span>25 mins</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/build/images/Noodles.jpeg" alt="noodles" class="w-full h-32 sm:h-48 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold text-black">Veg Noodles</span>
+                        <span class="block text-gray-500 text-sm">Recipe by Tolani</span>
+                    </div>
+                    <div class="badge">
+                        <span>25 mins</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/build/images/curry.jpeg" alt="curry" class="w-full h-32 sm:h-48 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold text-black ">Tofu Curry</span>
+                        <span class="block text-gray-500 text-sm">Recipe by Tolani</span>
+                    </div>
+                    <div class="badge">
+                        <span>25 mins</span>
+                    </div>
+                </div>
+
+                <!-- <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Most Popular</h4> -->
+
+                <div class="card">
+                    <img src="/build/images/pasta.jpeg" alt="pasta" class="w-full h-32 sm:h-48 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold text-black">pasta</span>
+                        <span class="block text-gray-500 text-sm">Recipe by Tolani</span>
+                    </div>
+                    <div class="badge">
+                        <span>25 mins</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/build/images/jollof rice.jpeg" alt="jollof" class="w-full h-32 sm:h-48 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold text-black">Naija Jollof</span>
+                        <span class="block text-gray-500 text-sm">Recipe by Tolani</span>
+                    </div>
+                    <div class="badge">
+                        <span>25 mins</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/build/images/pancake.jpeg" alt="pancake" class="w-full h-32 sm:h-48 object-cover">
+                    <div class="m-4">
+                        <span class="font-bold text-black">pancake</span>
+                        <span class="block text-gray-500 text-sm">Recipe by Tolani</span>
+                    </div>
+                    <div class="badge">
+                        <span>25 mins</span>
+                    </div>
+                </div>
+            </div><!-- cards end here -->
+
+            <!-- <div class="flex justify-center mt-8">
+                        <div class=" btn bg-gray-100 text-red-600 hover:text-blue-700 transition ease-out duration-500">Load more</div>
+                    </div> -->
+        </main><!--end of main -->
+    </div><!--wrapper for nav and main end -->
+</body>
+
+</html>
