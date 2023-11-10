@@ -671,8 +671,56 @@ video {
   background-image: url('/build/images/Bgpicture3.jpeg');
 }
 
+.bg-\[url\(\'images\/Bgpicture4\.jpeg\'\)\] {
+  background-image: url('images/Bgpicture4.jpeg');
+}
+
 .bg-\[url\(\'\/build\/images\/Bgpicture4\.jpeg\'\)\] {
   background-image: url('/build/images/Bgpicture4.jpeg');
+}
+
+.bg-\[url\(\'build\/images\/Bgpicture4\.jpeg\'\)\] {
+  background-image: url('build/images/Bgpicture4.jpeg');
+}
+
+.bg-\[url\(\'\/images\/Bgpicture4\.jpeg\'\)\] {
+  background-image: url('/images/Bgpicture4.jpeg');
+}
+
+.bg-\[url\(\`images\/Bgpicture4\.jpeg\`\)\] {
+  background-image: url(`images/Bgpicture4.jpeg`);
+}
+
+.bg-\[url\(\'\~\/images\/Bgpicture4\.jpeg\'\)\] {
+  background-image: url('~/images/Bgpicture4.jpeg');
+}
+
+.bg-\[url\(\'\/build\/img\/Bgpicture4\.jpeg\'\)\] {
+  background-image: url('/build/img/Bgpicture4.jpeg');
+}
+
+.bg-\[url\(\'img\/Bgpicture4\.jpeg\'\)\] {
+  background-image: url('img/Bgpicture4.jpeg');
+}
+
+.bg-\[url\(\'img\/contact-bg\.jpeg\'\)\] {
+  background-image: url('img/contact-bg.jpeg');
+}
+
+.bg-\[url\(\'\/img\/contact-bg\.jpeg\'\)\] {
+  background-image: url('/img/contact-bg.jpeg');
+}
+
+.bg-\[url\(\'build\/img\/contact-bg\.jpeg\'\)\] {
+  background-image: url('build/img/contact-bg.jpeg');
+}
+
+.bg-\[url\(\'\/build\/img\/contact-bg\.jpeg\'\)\] {
+  background-image: url('/build/img/contact-bg.jpeg');
+}
+
+.bg-\[url\(\'\/build\/img\/Bgpicture3\.jpeg\'\)\] {
+  background-image: url('/build/img/Bgpicture3.jpeg');
 }
 
 .object-cover {
