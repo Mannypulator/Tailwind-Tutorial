@@ -657,6 +657,10 @@ video {
   border-color: rgb(252 165 165 / var(--tw-border-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -667,59 +671,11 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\/build\/images\/Bgpicture3\.jpeg\'\)\] {
-  background-image: url('/build/images/Bgpicture3.jpeg');
-}
-
-.bg-\[url\(\'images\/Bgpicture4\.jpeg\'\)\] {
-  background-image: url('images/Bgpicture4.jpeg');
-}
-
-.bg-\[url\(\'\/build\/images\/Bgpicture4\.jpeg\'\)\] {
-  background-image: url('/build/images/Bgpicture4.jpeg');
-}
-
-.bg-\[url\(\'build\/images\/Bgpicture4\.jpeg\'\)\] {
-  background-image: url('build/images/Bgpicture4.jpeg');
-}
-
-.bg-\[url\(\'\/images\/Bgpicture4\.jpeg\'\)\] {
-  background-image: url('/images/Bgpicture4.jpeg');
-}
-
-.bg-\[url\(\`images\/Bgpicture4\.jpeg\`\)\] {
-  background-image: url(`images/Bgpicture4.jpeg`);
-}
-
-.bg-\[url\(\'\~\/images\/Bgpicture4\.jpeg\'\)\] {
-  background-image: url('~/images/Bgpicture4.jpeg');
-}
-
-.bg-\[url\(\'\/build\/img\/Bgpicture4\.jpeg\'\)\] {
-  background-image: url('/build/img/Bgpicture4.jpeg');
-}
-
-.bg-\[url\(\'img\/Bgpicture4\.jpeg\'\)\] {
-  background-image: url('img/Bgpicture4.jpeg');
-}
-
-.bg-\[url\(\'img\/contact-bg\.jpeg\'\)\] {
-  background-image: url('img/contact-bg.jpeg');
-}
-
-.bg-\[url\(\'\/img\/contact-bg\.jpeg\'\)\] {
-  background-image: url('/img/contact-bg.jpeg');
-}
-
-.bg-\[url\(\'build\/img\/contact-bg\.jpeg\'\)\] {
-  background-image: url('build/img/contact-bg.jpeg');
-}
-
-.bg-\[url\(\'\/build\/img\/contact-bg\.jpeg\'\)\] {
+.bg-cover-image {
   background-image: url('/build/img/contact-bg.jpeg');
 }
 
-.bg-\[url\(\'\/build\/img\/Bgpicture3\.jpeg\'\)\] {
+.bg-main-image {
   background-image: url('/build/img/Bgpicture3.jpeg');
 }
 
